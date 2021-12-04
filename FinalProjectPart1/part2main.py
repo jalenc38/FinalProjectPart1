@@ -29,7 +29,7 @@ with open("FullInventory.csv", "r") as my_file:
         line=my_file.readline()
 
 #Step 1
-user_input = input("What do you want").lower()
+user_input = input("What do you want: ").lower()
 while user_input != "q":
     user_manufacturer= None
     user_item_type= None
@@ -101,7 +101,7 @@ while user_input != "q":
             print("You may also want to consider:" ,alt_item[0], alt_item[1][0], alt_item[1][1], alt_item[1][2])
 
     #item iiii
-    user_input = input("/n/nAnother Query or Enter q to quit").lower()
+    user_input = input("/n/nAnother Query or Enter q to quit: ").lower()
 
 
 
