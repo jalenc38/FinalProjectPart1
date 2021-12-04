@@ -101,7 +101,7 @@ while user_input != "q":
             print("You may also want to consider:" ,alt_item[0], alt_item[1][0], alt_item[1][1], alt_item[1][2])
 
     #item iiii
-    user_input = input("Another Query or Enter q to quit")
+    user_input = input("/n/nAnother Query or Enter q to quit").lower()
 
 
 
