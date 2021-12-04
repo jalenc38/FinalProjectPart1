@@ -1,5 +1,4 @@
-                                                                              #Jalen Combong 2038587
-exec(open("main.py").read())
+exec(open("main.py").read())                                                        #Jalen Combong 2038587
 
 
 #read from FullInventory.csv and make a set of manufacturerers and item type
