@@ -1,5 +1,5 @@
                                     #Jalen Combong 2038587
-exec(open("main.py").read())
+exec(open("FinalProjectInput.py").read())
 
 
 #read from FullInventory.csv and make a set of manufacturerers and item type
